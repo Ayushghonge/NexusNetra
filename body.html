@@ -1,0 +1,691 @@
+<a class="skip" href="#main">Skip to content</a>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="nn-mark" viewBox="0 0 125.4 127.69">{{MARK}}</symbol>
+    <symbol id="nn-lockup" viewBox="0 0 616.98 127.69">{{MARK}}{{CWORD}}</symbol>
+    <symbol id="nn-lockup-full" viewBox="0 0 620.32 127.69">{{MARK}}{{WORD}}{{TAG}}</symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4.5 12h15M13.5 6l6 6-6 6"/></symbol>
+    <symbol id="i-arrow-up" viewBox="0 0 24 24"><path d="M12 19.5v-15M6 10.5l6-6 6 6"/></symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M8 5.2v13.6a.6.6 0 0 0 .9.5l11-6.8a.6.6 0 0 0 0-1L8.9 4.7a.6.6 0 0 0-.9.5z"/></symbol>
+    <symbol id="i-pause" viewBox="0 0 24 24"><rect fill="currentColor" stroke="none" x="6.5" y="5" width="3.6" height="14" rx="1"/><rect fill="currentColor" stroke="none" x="13.9" y="5" width="3.6" height="14" rx="1"/></symbol>
+    <symbol id="i-sound-off" viewBox="0 0 24 24"><path d="M4 9.5h3.2L12 5.5v13l-4.8-4H4z"/><path d="M16 9.5l5 5M21 9.5l-5 5"/></symbol>
+    <symbol id="i-sound-on" viewBox="0 0 24 24"><path d="M4 9.5h3.2L12 5.5v13l-4.8-4H4z"/><path d="M15.5 9a4 4 0 0 1 0 6M18.2 6.5a7.5 7.5 0 0 1 0 11"/></symbol>
+    <symbol id="i-expand" viewBox="0 0 24 24"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+    <symbol id="i-eye" viewBox="0 0 24 24"><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12z"/><circle cx="12" cy="12" r="3.2"/></symbol>
+    <symbol id="i-insight" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.3 15.3l5.2 5.2"/><path d="M7.4 12.4l2-2.2 1.8 1.4 2.3-3"/></symbol>
+    <symbol id="i-follow" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M8 12.3l2.7 2.7 5.5-5.5"/></symbol>
+    <symbol id="i-dashboard" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2.5"/><path d="M3 8.5h18M7.5 16.5v-3M11.5 16.5v-5M15.5 16.5v-2"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l7.5 3v5.5c0 4.6-3.2 8.3-7.5 9.5-4.3-1.2-7.5-4.9-7.5-9.5V6z"/><path d="M8.8 12l2.2 2.2 4.2-4.4"/></symbol>
+    <symbol id="i-radar" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><path d="M12 12l6.2-4.6"/><circle cx="12" cy="12" r=".9" fill="currentColor"/></symbol>
+    <symbol id="i-matrix" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="2.5"/><path d="M9 3.5v17M3.5 9h17"/><path d="M12.4 14.6l1.9 1.9 3.4-3.7"/></symbol>
+    <symbol id="i-analytics" viewBox="0 0 24 24"><path d="M4 19.5h16"/><path d="M6 15.5l3.8-4.6 3 2.6 4.4-6.2"/><circle cx="17.4" cy="7" r="1.4"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15.5" rx="2.5"/><path d="M8 3v4M16 3v4M3.5 10h17"/><path d="M9 15.2l2 2 4-4.2"/></symbol>
+    <symbol id="i-asset" viewBox="0 0 24 24"><path d="M3.5 8.2L12 4l8.5 4.2v7.6L12 20l-8.5-4.2z"/><path d="M3.5 8.2L12 12.4l8.5-4.2M12 12.4V20"/></symbol>
+    <symbol id="i-contract" viewBox="0 0 24 24"><path d="M13.5 3.5H7A2 2 0 0 0 5 5.5v13a2 2 0 0 0 2 2h4.5"/><path d="M13.5 3.5l5 5h-5z"/><circle cx="16.5" cy="16.5" r="4"/><path d="M16.5 14.6v2l1.3 1"/></symbol>
+    <symbol id="i-flow" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="7" height="7" rx="1.6"/><rect x="13.5" y="13.5" width="7" height="7" rx="1.6"/><path d="M10.5 7h3.5a3 3 0 0 1 3 3v3.5"/><path d="M15 11.5l2 2 2-2"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M3.5 6.5a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H9.5l-3.5 3v-3h-.5a2 2 0 0 1-2-2z"/><path d="M16.5 9h2a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H18v2.5L15 18h-3.5a2 2 0 0 1-2-2v-.5"/></symbol>
+    <symbol id="i-network" viewBox="0 0 24 24"><circle cx="5.5" cy="6" r="2.5"/><circle cx="18.5" cy="6" r="2.5"/><circle cx="12" cy="18" r="2.5"/><path d="M8 6h8M7 8.2l3.7 7.6M17 8.2l-3.7 7.6"/></symbol>
+    <symbol id="i-people" viewBox="0 0 24 24"><circle cx="9" cy="8.5" r="3.2"/><path d="M3.5 19.5c.6-3.2 2.8-5 5.5-5s4.9 1.8 5.5 5"/><circle cx="16.8" cy="9.3" r="2.6"/><path d="M15.6 14.6c2.5-.3 4.4 1.3 4.9 4.4"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M3.5 7l8.5 6 8.5-6"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M6.6 3.5h2.6l1.4 4-2 1.4a11.5 11.5 0 0 0 6.5 6.5l1.4-2 4 1.4v2.6a2 2 0 0 1-2.2 2A16.5 16.5 0 0 1 4.6 5.7a2 2 0 0 1 2-2.2z"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8.5" y="8.5" width="11" height="11" rx="2.2"/><path d="M15.5 8.5V6.2a1.7 1.7 0 0 0-1.7-1.7H6.2a1.7 1.7 0 0 0-1.7 1.7v7.6a1.7 1.7 0 0 0 1.7 1.7h2.3"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v5.5M12 7.8v.2"/></symbol>
+    <symbol id="i-sparkle" viewBox="0 0 24 24"><path d="M11 3.5c.6 4.2 2.3 6 6.5 6.5-4.2.6-5.9 2.3-6.5 6.5-.6-4.2-2.3-5.9-6.5-6.5 4.2-.5 5.9-2.3 6.5-6.5z"/><path d="M18.5 14.5c.3 1.6.9 2.2 2.5 2.5-1.6.3-2.2.9-2.5 2.5-.3-1.6-.9-2.2-2.5-2.5 1.6-.3 2.2-.9 2.5-2.5z"/></symbol>
+    <symbol id="i-judgement" viewBox="0 0 24 24"><circle cx="10" cy="8" r="3.5"/><path d="M3.5 20c.7-3.6 3.2-5.6 6.5-5.6 1.4 0 2.6.3 3.6 1"/><path d="M15 18l2 2 4-4.5"/></symbol>
+    <symbol id="i-coins" viewBox="0 0 24 24"><ellipse cx="12" cy="6.5" rx="7" ry="2.8"/><path d="M5 6.5v5c0 1.5 3.1 2.8 7 2.8s7-1.3 7-2.8v-5M5 11.5v5c0 1.5 3.1 2.8 7 2.8s7-1.3 7-2.8v-5"/></symbol>
+    <symbol id="i-trend" viewBox="0 0 24 24"><path d="M3.5 17.5l5.5-5.5 4 4 7.5-8"/><path d="M15 8h5.5v5.5"/></symbol>
+    <symbol id="i-cart" viewBox="0 0 24 24"><path d="M3.5 4.5h2.2l2.1 10.2a1.5 1.5 0 0 0 1.5 1.2h8.4a1.5 1.5 0 0 0 1.4-1.1L21 8H6.6"/><circle cx="10" cy="19.5" r="1.3"/><circle cx="17" cy="19.5" r="1.3"/></symbol>
+    <symbol id="i-boxes" viewBox="0 0 24 24"><rect x="3.5" y="12" width="8" height="8" rx="1.3"/><rect x="12.5" y="12" width="8" height="8" rx="1.3"/><rect x="8" y="3.5" width="8" height="8" rx="1.3"/></symbol>
+    <symbol id="i-gear" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><circle cx="12" cy="12" r="6.5"/><path d="M12 2.8v2.7M12 18.5v2.7M21.2 12h-2.7M5.5 12H2.8M18.5 5.5l-1.9 1.9M7.4 16.6l-1.9 1.9M18.5 18.5l-1.9-1.9M7.4 7.4L5.5 5.5"/></symbol>
+  </defs>
+</svg>
+
+<header class="nav" id="nav">
+  <div class="wrap nav__inner">
+    <a class="nav__brand" href="#top" aria-label="Nexus Netra, back to top">
+      <svg class="logo" viewBox="0 0 616.98 127.69" role="img" aria-label="Nexus Netra"><use href="#nn-lockup"/></svg>
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#about" data-spy="about">About ARC</a>
+      <a href="#governance-os" data-spy="governance-os">Governance OS</a>
+      <a href="#vision" data-spy="vision">Vision</a>
+      <a href="#tools" data-spy="tools">Tools</a>
+      <a href="#roadmap" data-spy="roadmap">Roadmap</a>
+      <a href="#approach" data-spy="approach">Approach</a>
+    </nav>
+    <div class="nav__cta">
+      <a class="btn btn--sm" href="#contact" data-intent="demo">Request a Demo</a>
+      <button class="burger" id="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><span></span><span></span></button>
+    </div>
+  </div>
+  <div class="nav__progress" aria-hidden="true"><span></span></div>
+</header>
+
+<div class="menu" id="menu" aria-label="Menu" hidden>
+  <div class="wrap menu__inner">
+    <nav class="menu__links" aria-label="Mobile">
+      <a href="#about" style="--k:0">About ARC <svg class="icon"><use href="#i-arrow"/></svg></a>
+      <a href="#governance-os" style="--k:1">Governance OS <svg class="icon"><use href="#i-arrow"/></svg></a>
+      <a href="#vision" style="--k:2">Our Vision <svg class="icon"><use href="#i-arrow"/></svg></a>
+      <a href="#tools" style="--k:3">Tools <svg class="icon"><use href="#i-arrow"/></svg></a>
+      <a href="#roadmap" style="--k:4">Roadmap <svg class="icon"><use href="#i-arrow"/></svg></a>
+      <a href="#approach" style="--k:5">Approach <svg class="icon"><use href="#i-arrow"/></svg></a>
+      <a href="#contact" style="--k:6">Contact <svg class="icon"><use href="#i-arrow"/></svg></a>
+    </nav>
+    <div class="menu__foot">
+      <a class="btn btn--plain" href="#contact" data-intent="demo">Request a Demo</a>
+      <p><strong>Rohit Gupta</strong>Partner, Risk &amp; Business Consulting<br>rohit.gupta@arcadvisory.in · +91 99604 44788</p>
+    </div>
+  </div>
+</div>
+
+<main id="main">
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top" aria-labelledby="hero-title">
+  <canvas class="hero__net" id="heroNet" aria-hidden="true"></canvas>
+  <div class="wrap hero__grid">
+    <div class="hero__copy">
+      <p class="eyebrow hero-anim" style="--d:60ms"><span class="iris" aria-hidden="true"></span>Nexus Netra Governance OS</p>
+      <h1 class="hero__title" id="hero-title" data-split="hero">Transforming governance with <em>connected intelligence.</em></h1>
+      <p class="hero__sub hero-anim" style="--d:560ms">Governance technology from ARC Advisory, bringing business performance, control monitoring and enterprise risk into one connected view.</p>
+      <div class="actions hero-anim" style="--d:680ms">
+        <a class="btn" href="#tools"><span>Explore Our Tools</span><span class="btn__arrow" aria-hidden="true"><svg class="icon"><use href="#i-arrow"/></svg><svg class="icon"><use href="#i-arrow"/></svg></span></a>
+        <a class="btn btn--ghost btn--plain" href="#contact" data-intent="demo">Request a Demo</a>
+      </div>
+      <div class="hero__live hero-anim" style="--d:820ms">
+        <span class="live-dot" aria-hidden="true"></span><span class="hero__live-label">Live today</span>
+        <a class="tag" href="#bpm" title="Business Performance Monitoring">BPM</a>
+        <a class="tag" href="#ccm" title="Continuous Control Monitoring">CCM</a>
+        <a class="tag" href="#erm" title="Enterprise Risk Management">ERM</a>
+      </div>
+    </div>
+
+    <div class="hero__visual">
+      <figure class="film hero-anim" id="film" style="--d:240ms" aria-label="The Nexus Netra film">
+        <div class="film__box">
+        <div class="film__frame">
+          <video id="heroVideo" poster="{{IMG:film-poster}}" muted loop playsinline webkit-playsinline preload="metadata" aria-label="Nexus Netra film, 1 minute 14 seconds, with on-screen captions"></video>
+          <button class="film__cover" type="button" data-theater aria-label="Watch the film with sound">
+            <span class="film__play"><i><svg viewBox="0 0 24 24"><use href="#i-play"/></svg></i>Watch with sound</span>
+          </button>
+          <div class="film__ui">
+            <button class="film__btn" type="button" id="heroToggle" aria-label="Pause film"><svg class="icon"><use href="#i-pause"/></svg></button>
+            <div class="film__track" aria-hidden="true"><span id="heroProg"></span></div>
+            <span class="film__time" id="heroTime">0:00</span>
+            <button class="film__btn" type="button" id="heroSound" aria-label="Turn sound on" aria-pressed="false"><svg class="icon"><use href="#i-sound-off"/></svg></button>
+            <button class="film__btn" type="button" data-theater aria-label="Open the film in theatre view"><svg class="icon"><use href="#i-expand"/></svg></button>
+          </div>
+        </div>
+        <span class="film__bracket film__bracket--tr" aria-hidden="true"></span>
+        <span class="film__bracket film__bracket--bl" aria-hidden="true"></span>
+        <div class="chip chip--perf" style="--cd:1000ms;--bob:0s" aria-hidden="true"><span class="chip__ic"><svg class="icon"><use href="#i-dashboard"/></svg></span><span>Performance<small>BPM</small></span></div>
+        <div class="chip chip--ctrl" style="--cd:1150ms;--bob:-2.3s" aria-hidden="true"><span class="chip__ic"><svg class="icon"><use href="#i-shield"/></svg></span><span>Controls<small>CCM</small></span></div>
+        <div class="chip chip--risk" style="--cd:1300ms;--bob:-4.6s" aria-hidden="true"><span class="chip__ic"><svg class="icon"><use href="#i-radar"/></svg></span><span>Risk<small>ERM</small></span></div>
+        </div>
+        <figcaption class="film__caption" aria-live="off"><span class="live-dot" aria-hidden="true"></span><b id="heroChapterTime">0:00</b><span class="name" id="heroChapter">From hindsight to foresight</span></figcaption>
+      </figure>
+    </div>
+  </div>
+  <a class="hero__scroll" href="#about" aria-label="Scroll to the next section"><span>Scroll</span><i></i></a>
+</section>
+
+<!-- ============ ABOUT ARC ============ -->
+<section class="section about" id="about" aria-labelledby="about-title">
+  <div class="wrap">
+    <div class="about__head">
+      <p class="eyebrow" data-reveal><span class="iris" aria-hidden="true"></span>The experience behind the platform</p>
+      <h2 class="h2" id="about-title" data-split>Built on ARC’s understanding of business governance <em>and risk</em></h2>
+    </div>
+    <div class="about__grid">
+      <figure class="frame about__media" data-reveal>
+        <div class="frame__img" data-parallax="0.08"><img src="{{IMG:arc-towers}}" alt="Corporate office towers seen from street level" width="696" height="1104" loading="lazy" decoding="async"></div>
+        <figcaption class="about__quote">The detail on the ground. <em>The questions in the boardroom.</em><small>How ARC teams work</small></figcaption>
+      </figure>
+      <div class="about__body">
+        <p class="lead" data-reveal>ARC Advisory is a multidisciplinary consulting firm led by partners with prior Big 4 experience and supported by 100+ professionals. Our work brings together internal audit, financial controls, enterprise risk management, compliance and business process improvement.</p>
+        <ul class="disciplines" aria-label="Disciplines" data-reveal>
+          <li>Internal audit</li><li>Financial controls</li><li>Enterprise risk management</li><li>Compliance</li><li>Business process improvement</li>
+        </ul>
+        <p data-reveal>We work with growing enterprises and large, multi-entity businesses across sectors including metals and mining, energy, manufacturing, pharmaceuticals, consumer businesses and infrastructure. Our teams understand the detail on the ground and the questions leadership needs answered in the boardroom.</p>
+        <div class="stats" data-reveal-group>
+          <div class="stat" data-reveal style="--d:0ms"><span class="stat__n"><span data-count="100">100</span><sup>+</sup></span><span class="stat__l">professionals supporting ARC’s partners</span></div>
+          <div class="stat" data-reveal style="--d:100ms"><span class="stat__n"><span data-count="15">15</span><sup>+</sup></span><span class="stat__l">years of risk, audit and advisory experience</span></div>
+          <div class="stat" data-reveal style="--d:200ms"><span class="stat__n">Big&nbsp;4</span><span class="stat__l">prior experience of the partners who lead ARC</span></div>
+        </div>
+        <p class="about__shape" data-reveal><svg class="mark" viewBox="0 0 125.4 127.69" aria-hidden="true"><use href="#nn-mark"/></svg>That experience shapes Nexus Netra Governance OS. Its framework draws on the processes we review, the controls we help strengthen and the risks we help businesses manage.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ INTRODUCING ============ -->
+<section class="section intro" id="governance-os" aria-labelledby="intro-title">
+  <div class="wrap">
+    <div class="intro__head">
+      <p class="eyebrow" data-reveal><span class="iris" aria-hidden="true"></span>Introducing Nexus Netra</p>
+      <h2 class="h2" id="intro-title" data-split>A clearer view of your business.<br> <em>A stronger foundation for decisions.</em></h2>
+    </div>
+    <div class="intro__grid">
+      <div class="intro__copy">
+        <p class="lead" data-reveal>As businesses adopt technology and AI, leaders need information they can understand, question and act on. Performance reports, control findings and risk registers become more useful when they tell a connected story.</p>
+        <p data-reveal>Nexus Netra is ARC’s Governance Operating System, bringing business performance, control monitoring and enterprise risk into a common governance framework.</p>
+        <div class="purpose" data-reveal>
+          <p class="purpose__lead">The purpose is straightforward: help teams</p>
+          <ol class="purpose__steps">
+            <li><span class="ic" aria-hidden="true"><svg class="icon"><use href="#i-eye"/></svg></span><span>See what needs attention</span></li>
+            <li><span class="ic" aria-hidden="true"><svg class="icon"><use href="#i-insight"/></svg></span><span>Understand the underlying issue</span></li>
+            <li><span class="ic" aria-hidden="true"><svg class="icon"><use href="#i-follow"/></svg></span><span>Follow through with clear accountability</span></li>
+          </ol>
+        </div>
+        <div class="actions" data-reveal>
+          <a class="btn" href="#tools"><span>Explore Our Tools</span><span class="btn__arrow" aria-hidden="true"><svg class="icon"><use href="#i-arrow"/></svg><svg class="icon"><use href="#i-arrow"/></svg></span></a>
+          <a class="btn btn--ghost btn--plain" href="#contact" data-intent="demo">Request a Demo</a>
+        </div>
+      </div>
+      <figure class="os" data-reveal aria-label="Diagram: business performance, control monitoring and enterprise risk connected through one governance framework">
+        <span class="pill pill--live os__tag"><span class="live-dot" aria-hidden="true"></span>Governance OS</span>
+        <svg viewBox="0 0 520 432" role="img" aria-labelledby="os-desc">
+          <desc id="os-desc">Nexus Netra at the centre, connected to BPM, CCM and ERM.</desc>
+          <g class="ring-spin"><circle cx="260" cy="215" r="150" fill="none" stroke="rgba(29,90,78,.18)" stroke-dasharray="2 8"/></g>
+          <path d="M92 118 L428 118 L260 374 Z" fill="none" stroke="rgba(29,90,78,.16)" stroke-dasharray="4 6"/>
+          <g stroke="#CC8A2B" stroke-width="1.6" fill="none" stroke-linecap="round">
+            <path class="flow" d="M192 176 L148 151"/>
+            <path class="flow" d="M328 176 L372 151"/>
+            <path class="flow" d="M260 300 L260 342"/>
+          </g>
+          <circle cx="260" cy="215" r="90" fill="none" stroke="#CC8A2B" stroke-width="5" stroke-dasharray="1.1 10.68" opacity=".55" class="ring-spin"/>
+          <circle cx="260" cy="215" r="70" fill="#FFFFFF" stroke="rgba(204,138,43,.5)" stroke-width="1.2"/>
+          <circle cx="260" cy="215" r="80" fill="none" stroke="rgba(29,90,78,.14)"/>
+          <use href="#nn-mark" x="232" y="186.5" width="56" height="57"/>
+          <g class="os-pill"><rect x="143" y="309" width="234" height="22" rx="11" fill="#FBFAF6" stroke="rgba(29,90,78,.16)"/><text x="260" y="323.5" text-anchor="middle" font-family="Nunito Sans, sans-serif" font-size="9" font-weight="600" letter-spacing="1.6" fill="#5C6966">COMMON GOVERNANCE FRAMEWORK</text></g>
+          <g font-family="Nunito Sans, sans-serif">
+            <g transform="translate(4 86)">
+              <rect width="176" height="64" rx="16" fill="#FFFFFF" stroke="rgba(29,90,78,.18)"/>
+              <circle cx="30" cy="32" r="15" fill="#E8F0EC"/>
+              <g transform="translate(20 22)" stroke="#1D5A4E" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#i-dashboard" width="20" height="20"/></g>
+              <text class="os-acr" x="54" y="28" font-family="Nunito Sans, sans-serif" font-size="19" font-weight="800" letter-spacing="-.5" fill="#123D34">BPM</text>
+              <text class="os-sub" x="54" y="45" font-size="10.5" font-weight="500" fill="#5C6966">Business performance</text>
+            </g>
+            <g transform="translate(340 86)">
+              <rect width="176" height="64" rx="16" fill="#FFFFFF" stroke="rgba(29,90,78,.18)"/>
+              <circle cx="30" cy="32" r="15" fill="#F5E9D3"/>
+              <g transform="translate(20 22)" stroke="#94600F" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#i-shield" width="20" height="20"/></g>
+              <text class="os-acr" x="54" y="28" font-family="Nunito Sans, sans-serif" font-size="19" font-weight="800" letter-spacing="-.5" fill="#123D34">CCM</text>
+              <text class="os-sub" x="54" y="45" font-size="10.5" font-weight="500" fill="#5C6966">Control monitoring</text>
+            </g>
+            <g transform="translate(172 342)">
+              <rect width="176" height="64" rx="16" fill="#FFFFFF" stroke="rgba(29,90,78,.18)"/>
+              <circle cx="30" cy="32" r="15" fill="#F3E1D6"/>
+              <g transform="translate(20 22)" stroke="#B4532A" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#i-radar" width="20" height="20"/></g>
+              <text class="os-acr" x="54" y="28" font-family="Nunito Sans, sans-serif" font-size="19" font-weight="800" letter-spacing="-.5" fill="#123D34">ERM</text>
+              <text class="os-sub" x="54" y="45" font-size="10.5" font-weight="500" fill="#5C6966">Enterprise risk</text>
+            </g>
+          </g>
+        </svg>
+      </figure>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ VISION ============ -->
+<section class="section vision" id="vision" aria-labelledby="vision-title">
+  <div class="wrap">
+    <div class="vision__top">
+      <div class="vision__intro">
+        <p class="eyebrow" data-reveal><span class="iris" aria-hidden="true"></span>Our vision</p>
+        <h2 class="vision__title" id="vision-title" data-split>Make governance part of how business runs <em>every day.</em></h2>
+        <p class="vision__lead" data-reveal>Our vision is to connect business objectives with the processes, controls and risks that influence their achievement.</p>
+      </div>
+      <aside class="netra" data-reveal style="--d:120ms" aria-label="The meaning of Netra">
+        <div class="netra__art"><canvas id="meaningNet" aria-hidden="true"></canvas></div>
+        <div class="netra__text">
+          <p class="eyebrow"><span class="iris" aria-hidden="true"></span>The meaning of Netra</p>
+          <p class="netra__word">NETRA <span class="deva" lang="hi">नेत्र</span></p>
+          <p>Netra means eye. It represents our belief that better governance begins with the ability to see clearly.</p>
+          <blockquote>The eye that sees. The vision that guides.</blockquote>
+        </div>
+      </aside>
+    </div>
+    <ul class="links" data-reveal-group>
+      <li class="link" data-reveal style="--d:0ms">
+        <p class="link__from"><small>Performance</small><span>A performance shortfall</span></p>
+        <span class="link__wire" aria-hidden="true"><i style="--dl:0s"></i></span>
+        <p class="link__to">should prompt a closer look at its causes.</p>
+      </li>
+      <li class="link" data-reveal style="--d:120ms">
+        <p class="link__from"><small>Controls</small><span>A recurring control exception</span></p>
+        <span class="link__wire" aria-hidden="true"><i style="--dl:1s"></i></span>
+        <p class="link__to">should inform the assessment of risk.</p>
+      </li>
+      <li class="link" data-reveal style="--d:240ms">
+        <p class="link__from"><small>Risk</small><span>A mitigation plan</span></p>
+        <span class="link__wire" aria-hidden="true"><i style="--dl:2s"></i></span>
+        <p class="link__to">should have an owner, a timeline and a way to track progress.</p>
+      </li>
+    </ul>
+    <p class="vision__close" data-reveal><svg viewBox="0 0 125.4 127.69" aria-hidden="true" style="--nn-ink:#F4F1E9"><use href="#nn-mark"/></svg><span>Nexus Netra is being developed around these connections, combining ARC’s domain knowledge with technology and AI to make governance more timely and useful.</span></p>
+  </div>
+</section>
+
+<!-- ============ TOOLS ============ -->
+<section class="section tools" id="tools" aria-labelledby="tools-title">
+  <div class="wrap">
+    <div class="section-head section-head--split">
+      <div style="display:grid;gap:22px">
+        <p class="eyebrow" data-reveal><span class="live-dot" aria-hidden="true"></span>Live today</p>
+        <h2 class="h2" id="tools-title" data-split>Our launched <em>tools</em></h2>
+      </div>
+      <p class="lead" data-reveal>BPM, CCM and ERM are already launched, with ARC working across large and mid-sized clients to deliver solutions around their business requirements.</p>
+    </div>
+
+    <div class="tabs" role="tablist" aria-label="Launched tools" data-reveal>
+      <button class="tab is-active" type="button" role="tab" id="tab-bpm" aria-controls="bpm" aria-selected="true"><span class="tab__acr">BPM</span><span class="tab__name">Business Performance Monitoring</span><span class="live-dot" aria-hidden="true"></span></button>
+      <button class="tab" type="button" role="tab" id="tab-ccm" aria-controls="ccm" aria-selected="false" tabindex="-1"><span class="tab__acr">CCM</span><span class="tab__name">Continuous Control Monitoring</span><span class="live-dot" aria-hidden="true"></span></button>
+      <button class="tab" type="button" role="tab" id="tab-erm" aria-controls="erm" aria-selected="false" tabindex="-1"><span class="tab__acr">ERM</span><span class="tab__name">Enterprise Risk Management</span><span class="live-dot" aria-hidden="true"></span></button>
+    </div>
+
+    <div class="panels" id="panels">
+      <!-- BPM -->
+      <article class="tool tool--bpm is-active" id="bpm" role="tabpanel" aria-labelledby="tab-bpm" tabindex="0">
+        <div class="tool__copy">
+          <div class="tool__meta"><span class="pill pill--live"><span class="live-dot" aria-hidden="true"></span>Live</span><p class="tool__name">Business Performance Monitoring</p></div>
+          <h3 class="tool__title" id="bpm-title">See the result. Understand what sits behind it.</h3>
+          <p>Bring key business measures into a management dashboard, with actual performance against targets, trends and drill-downs into supporting information.</p>
+          <p>BPM supports visibility across functions such as finance, sales, procurement, inventory, operations and HR. Reporting and MIS automation can reduce repetitive consolidation and help teams spend more time understanding performance.</p>
+          <div class="keys"><span class="keys__label">Key areas</span>
+            <ul><li><svg class="icon"><use href="#i-check"/></svg>Performance dashboards</li><li><svg class="icon"><use href="#i-check"/></svg>Variance analysis</li><li><svg class="icon"><use href="#i-check"/></svg>Process visibility</li><li><svg class="icon"><use href="#i-check"/></svg>MIS automation</li></ul>
+          </div>
+          <div class="tool__actions"><button class="btn" type="button" data-drawer="bpm"><span>Explore BPM</span><span class="btn__arrow" aria-hidden="true"><svg class="icon"><use href="#i-arrow"/></svg><svg class="icon"><use href="#i-arrow"/></svg></span></button></div>
+        </div>
+        <div class="tool__visual" aria-hidden="true">
+          <div class="mock" id="mockBpm">
+            <div class="mock__bar"><span class="mock__dots"><i></i><i></i><i></i></span>Management dashboard<span class="mock__tag">Illustrative</span></div>
+            <div class="mock__body">
+              <div class="mtabs"><span class="on">Finance</span><span>Sales</span><span>Procurement</span><span>Inventory</span><span>Operations</span><span>HR</span></div>
+              <div class="kpis">
+                <div class="kpi"><span class="kpi__l">Actual vs target</span><span class="kpi__s" data-k="0">On track</span><svg viewBox="0 0 100 26" preserveAspectRatio="none"><polyline fill="none" stroke="#1D5A4E" stroke-width="1.6" points="0,20 16,18 32,19 48,13 64,14 80,9 100,7"/></svg></div>
+                <div class="kpi"><span class="kpi__l">Variance</span><span class="kpi__s warn" data-k="1">Review</span><svg viewBox="0 0 100 26" preserveAspectRatio="none"><polyline fill="none" stroke="#CC8A2B" stroke-width="1.6" points="0,12 16,14 32,11 48,16 64,15 80,19 100,18"/></svg></div>
+                <div class="kpi"><span class="kpi__l">Trend</span><span class="kpi__s" data-k="2">Improving</span><svg viewBox="0 0 100 26" preserveAspectRatio="none"><polyline fill="none" stroke="#1D5A4E" stroke-width="1.6" points="0,22 16,20 32,17 48,18 64,12 80,10 100,5"/></svg></div>
+              </div>
+              <div class="chart">
+                <div class="chart__legend"><span><i></i>Actual</span><span class="t"><i></i>Target</span></div>
+                <svg viewBox="0 0 320 132" id="bpmChart">
+                  <g stroke="rgba(29,90,78,.08)"><line x1="24" y1="18" x2="316" y2="18"/><line x1="24" y1="52" x2="316" y2="52"/><line x1="24" y1="86" x2="316" y2="86"/></g>
+                  <line x1="24" y1="112" x2="316" y2="112" stroke="rgba(29,90,78,.2)"/>
+                  <g fill="#1D5A4E" id="bpmBars"></g>
+                  <polyline id="bpmTarget" fill="none" stroke="#CC8A2B" stroke-width="1.6" stroke-dasharray="4 4" points=""/>
+                  <g font-family="Nunito Sans, sans-serif" font-size="8.5" font-weight="500" fill="#5C6966" text-anchor="middle" id="bpmLabels"></g>
+                </svg>
+              </div>
+              <div class="drill"><span>Drill-down</span><svg class="icon"><use href="#i-chevron"/></svg><b id="bpmDrill">Finance</b><svg class="icon"><use href="#i-chevron"/></svg><span id="bpmDrill2">Cost centre</span><svg class="icon"><use href="#i-chevron"/></svg><span>Supporting entries</span></div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- CCM -->
+      <article class="tool tool--ccm" id="ccm" role="tabpanel" aria-labelledby="tab-ccm" tabindex="0" hidden>
+        <div class="tool__copy">
+          <div class="tool__meta"><span class="pill pill--live"><span class="live-dot" aria-hidden="true"></span>Live</span><p class="tool__name">Continuous Control Monitoring</p></div>
+          <h3 class="tool__title" id="ccm-title">Keep control exceptions in view.</h3>
+          <p>Monitor agreed control rules across business transactions and surface exceptions for review.</p>
+          <p>CCM helps teams identify patterns such as duplicate invoices, purchases split around approval limits, matching discrepancies and transactions outside defined authority. Findings provide a basis for investigation, corrective action and follow-up.</p>
+          <div class="keys"><span class="keys__label">Key areas</span>
+            <ul><li><svg class="icon"><use href="#i-check"/></svg>Transaction testing</li><li><svg class="icon"><use href="#i-check"/></svg>Exception reporting</li><li><svg class="icon"><use href="#i-check"/></svg>Control trends</li><li><svg class="icon"><use href="#i-check"/></svg>Action tracking</li></ul>
+          </div>
+          <div class="tool__actions"><button class="btn" type="button" data-drawer="ccm"><span>Explore CCM</span><span class="btn__arrow" aria-hidden="true"><svg class="icon"><use href="#i-arrow"/></svg><svg class="icon"><use href="#i-arrow"/></svg></span></button></div>
+        </div>
+        <div class="tool__visual" aria-hidden="true">
+          <div class="mock" id="mockCcm">
+            <div class="mock__bar"><span class="mock__dots"><i></i><i></i><i></i></span>Exception monitor<span class="mock__tag">Illustrative</span></div>
+            <div class="mock__body">
+              <div class="ccm-rules"><span class="live-dot"></span>Agreed control rules running across transactions</div>
+              <div class="ccm-list" id="ccmList">
+                <div class="scanline" id="ccmScan"></div>
+                <div class="ccm-row"><span class="sev hi"></span><div><b>Duplicate invoice</b><small>Same vendor, amount and date</small></div><span class="st" data-s="review">Under review</span></div>
+                <div class="ccm-row"><span class="sev"></span><div><b>Purchase split around approval limit</b><small>Consecutive orders just under the limit</small></div><span class="st" data-s="action">Action assigned</span></div>
+                <div class="ccm-row"><span class="sev"></span><div><b>Matching discrepancy</b><small>Order, receipt and invoice differ</small></div><span class="st" data-s="open">Open</span></div>
+                <div class="ccm-row"><span class="sev lo"></span><div><b>Outside defined authority</b><small>Approved beyond delegated limit</small></div><span class="st" data-s="closed">Closed</span></div>
+              </div>
+              <div class="trend"><span>Control trend</span>
+                <svg viewBox="0 0 200 28" preserveAspectRatio="none"><path d="M0 8 L25 10 L50 7 L75 13 L100 12 L125 16 L150 18 L175 20 L200 22" fill="none" stroke="#CC8A2B" stroke-width="1.8"/><path d="M0 8 L25 10 L50 7 L75 13 L100 12 L125 16 L150 18 L175 20 L200 22 L200 28 L0 28Z" fill="rgba(204,138,43,.12)"/></svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- ERM -->
+      <article class="tool tool--erm" id="erm" role="tabpanel" aria-labelledby="tab-erm" tabindex="0" hidden>
+        <div class="tool__copy">
+          <div class="tool__meta"><span class="pill pill--live"><span class="live-dot" aria-hidden="true"></span>Live</span><p class="tool__name">Enterprise Risk Management</p></div>
+          <h3 class="tool__title" id="erm-title">Keep risk connected to business priorities.</h3>
+          <p>Bring risk identification, assessment and mitigation into a structured working system.</p>
+          <p>ERM helps teams maintain risk registers, assign ownership, assess exposure and track mitigation plans. Key Risk Indicators and heat maps support management reviews and discussions with Boards and Risk Management Committees.</p>
+          <div class="keys"><span class="keys__label">Key areas</span>
+            <ul><li><svg class="icon"><use href="#i-check"/></svg>Risk assessment</li><li><svg class="icon"><use href="#i-check"/></svg>Ownership</li><li><svg class="icon"><use href="#i-check"/></svg>Mitigation monitoring</li><li><svg class="icon"><use href="#i-check"/></svg>Committee reporting</li></ul>
+          </div>
+          <div class="tool__actions"><button class="btn" type="button" data-drawer="erm"><span>Explore ERM</span><span class="btn__arrow" aria-hidden="true"><svg class="icon"><use href="#i-arrow"/></svg><svg class="icon"><use href="#i-arrow"/></svg></span></button></div>
+        </div>
+        <div class="tool__visual" aria-hidden="true">
+          <div class="mock" id="mockErm">
+            <div class="mock__bar"><span class="mock__dots"><i></i><i></i><i></i></span>Risk heat map<span class="mock__tag">Illustrative</span></div>
+            <div class="mock__body">
+              <div class="erm-body">
+                <div class="heat">
+                  <span class="heat__y">Likelihood</span>
+                  <div class="heat__grid" id="heatGrid"></div>
+                  <span class="heat__x">Impact</span>
+                </div>
+                <ul class="reg">
+                  <li><div class="r1"><span>Supply disruption</span><span class="own"><i>CO</i>COO</span></div><div class="prog"><span style="--w:72%"></span></div></li>
+                  <li><div class="r1"><span>Regulatory change</span><span class="own"><i>CF</i>CFO</span></div><div class="prog"><span style="--w:48%"></span></div></li>
+                  <li><div class="r1"><span>Commodity prices</span><span class="own"><i>CF</i>CFO</span></div><div class="prog"><span style="--w:35%"></span></div></li>
+                  <li><div class="r1"><span>Key talent</span><span class="own"><i>HR</i>CHRO</span></div><div class="prog"><span style="--w:60%"></span></div></li>
+                </ul>
+              </div>
+              <div class="kri"><span><i></i>KRIs within appetite</span><span class="w"><i></i>KRI to watch</span><span>Board &amp; RMC view</span></div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ROADMAP ============ -->
+<section class="section roadmap" id="roadmap" aria-labelledby="roadmap-title">
+  <div class="wrap">
+    <div class="section-head section-head--split">
+      <div style="display:grid;gap:22px">
+        <p class="eyebrow" data-reveal><span class="iris" aria-hidden="true"></span>The wider Nexus Netra vision</p>
+        <h2 class="h2" id="roadmap-title" data-split>Building stronger governance, <em>one connected capability at a time.</em></h2>
+      </div>
+      <p class="lead" data-reveal>Additional tools are underway and will launch in due course. The wider vision extends across:</p>
+    </div>
+    <ul class="areas" data-reveal-group>
+      <li class="area" data-node="ifc" data-reveal style="--d:0ms"><span class="area__ic" aria-hidden="true"><svg class="icon"><use href="#i-matrix"/></svg></span><div><h3>Internal Financial Controls</h3><p>Connect risk and control matrices with testing, evidence, deficiencies and certification workflows.</p></div><span class="pill pill--dev">In development</span></li>
+      <li class="area" data-node="aa" data-reveal style="--d:80ms"><span class="area__ic" aria-hidden="true"><svg class="icon"><use href="#i-analytics"/></svg></span><div><h3>Audit Analytics</h3><p>Examine transaction patterns across procurement, sales, inventory, payroll and other business processes.</p></div><span class="pill pill--dev">In development</span></li>
+      <li class="area" data-node="cm" data-reveal style="--d:160ms"><span class="area__ic" aria-hidden="true"><svg class="icon"><use href="#i-calendar"/></svg></span><div><h3>Compliance Management</h3><p>Bring obligations, responsibilities, due dates and supporting evidence into clearer view.</p></div><span class="pill pill--dev">In development</span></li>
+      <li class="area" data-node="fa" data-reveal style="--d:240ms"><span class="area__ic" aria-hidden="true"><svg class="icon"><use href="#i-asset"/></svg></span><div><h3>Fixed Asset Verification and Tracking</h3><p>Improve asset traceability and reconciliation between physical findings and financial records.</p></div><span class="pill pill--dev">In development</span></li>
+      <li class="area" data-node="cs" data-reveal style="--d:320ms"><span class="area__ic" aria-hidden="true"><svg class="icon"><use href="#i-contract"/></svg></span><div><h3>Contract and SLA Monitoring</h3><p>Track key obligations, service commitments, renewals and items requiring attention.</p></div><span class="pill pill--dev">In development</span></li>
+      <li class="area area--later" data-reveal style="--d:400ms"><span class="area__ic" aria-hidden="true"><svg class="icon"><use href="#i-radar"/></svg></span><div><h3>Also on the longer-term roadmap</h3>
+        <ul class="later" aria-label="Longer-term roadmap areas"><li>Third-party risk</li><li>Ethics and whistleblower case management</li><li>ESG reporting</li><li>Fraud analytics</li><li>IT controls</li><li>Internal audit workflows</li></ul></div><span class="pill pill--later">Longer term</span></li>
+    </ul>
+    <p class="roadmap__close" data-reveal><svg class="mark" viewBox="0 0 125.4 127.69" aria-hidden="true"><use href="#nn-mark"/></svg><span>Together, these areas support our ambition to give organisations a more connected view of governance and risk.</span></p>
+  </div>
+</section>
+
+<!-- ============ AI ============ -->
+<section class="section ai" id="ai" aria-labelledby="ai-title">
+  <div class="wrap ai__grid">
+    <div class="ai__copy">
+      <p class="eyebrow" data-reveal><span class="iris" aria-hidden="true"></span>Technology with business understanding</p>
+      <h2 class="h2" id="ai-title" data-split>AI that helps people get to <em>the issue faster.</em></h2>
+      <p class="lead" data-reveal>Our approach to AI starts with the work people need to do: understand a variance, review an exception, identify a pattern or prepare a management discussion.</p>
+      <p data-reveal>Across the Nexus Netra roadmap, AI is intended to support plain-language commentary, anomaly identification, document analysis and easier access to information. Each capability is introduced around the needs and data available within the agreed solution.</p>
+      <div class="judgement" data-reveal>
+        <span class="ic" aria-hidden="true"><svg class="icon"><use href="#i-judgement"/></svg></span>
+        <p><strong>Business context and professional judgment remain central.</strong>ARC’s role is to help teams interpret what the information means and decide what action is appropriate.</p>
+      </div>
+    </div>
+    <div class="ai__visual">
+      <figure class="frame" data-reveal>
+        <div class="frame__img" data-parallax="0.06"><img src="{{IMG:insight-session}}" alt="A presenter walks a leadership team through a performance dashboard" width="736" height="1288" loading="lazy" decoding="async"></div>
+      </figure>
+      <div class="assist" data-reveal style="--d:200ms" aria-label="Examples of the work AI is intended to support">
+        <div class="assist__head"><svg class="icon"><use href="#i-sparkle"/></svg>Ask Nexus Netra<span class="pill pill--dev">On the roadmap</span></div>
+        <div class="assist__prompt"><span class="muted">Help me</span><span class="type" id="typeTarget">understand a variance</span><span class="caret" aria-hidden="true"></span></div>
+        <ul class="assist__caps">
+          <li><svg class="icon"><use href="#i-chat"/></svg>Plain-language commentary</li>
+          <li><svg class="icon"><use href="#i-analytics"/></svg>Anomaly identification</li>
+          <li><svg class="icon"><use href="#i-contract"/></svg>Document analysis</li>
+          <li><svg class="icon"><use href="#i-insight"/></svg>Easier access to information</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ APPROACH ============ -->
+<section class="section approach" id="approach" aria-labelledby="approach-title">
+  <div class="wrap">
+    <div class="section-head section-head--split">
+      <div style="display:grid;gap:22px">
+        <p class="eyebrow" data-reveal><span class="iris" aria-hidden="true"></span>Designed around your organisation</p>
+        <h2 class="h2" id="approach-title" data-split>Start with the <em>business question.</em></h2>
+      </div>
+      <p class="lead" data-reveal>Every organisation has different systems, reporting needs and governance priorities. We begin by understanding yours.</p>
+    </div>
+    <div class="steps-wrap" id="steps">
+    <div class="steps__line" aria-hidden="true"><span></span></div>
+    <ol class="steps">
+      <li class="step" data-reveal style="--d:0ms"><span class="step__n">01</span><h3>Understand the requirement</h3><p>Agree the business objectives, users, priority processes and decisions the solution needs to support.</p></li>
+      <li class="step" data-reveal style="--d:100ms"><span class="step__n">02</span><h3>Define the framework</h3><p>Establish metrics, control rules, risk criteria, ownership and reporting expectations with the relevant teams.</p></li>
+      <li class="step" data-reveal style="--d:200ms"><span class="step__n">03</span><h3>Connect and validate information</h3><p>Work with your technology and business teams to bring together agreed data sources and validate the outputs.</p></li>
+      <li class="step" data-reveal style="--d:300ms"><span class="step__n">04</span><h3>Implement and refine</h3><p>Introduce working releases, gather user feedback and support adoption through an agreed delivery and review process.</p></li>
+    </ol>
+    </div>
+    <p class="note" data-reveal><svg class="icon"><use href="#i-info"/></svg><span>Integration, refresh frequency, access permissions and hosting arrangements are defined for each engagement.</span></p>
+  </div>
+</section>
+
+<!-- ============ WHY ============ -->
+<section class="section why" id="why" aria-labelledby="why-title">
+  <div class="wrap bento" data-reveal-group>
+    <div class="frame bento__img bento__lead" data-reveal>
+      <div class="frame__img" data-parallax="0.06"><img src="{{IMG:boardroom-review}}" alt="A leadership team reviews findings together in a boardroom" width="736" height="1075" loading="lazy" decoding="async"></div>
+      <div class="bento__text">
+        <p class="eyebrow"><span class="iris" aria-hidden="true"></span>Why Nexus Netra</p>
+        <h2 class="bento__title" id="why-title" data-split>Governance experience carried into <em>product design.</em></h2>
+        <p class="bento__tag">Built by auditors. Designed for better governance.</p>
+      </div>
+    </div>
+      <article class="pillar" data-reveal style="--d:60ms"><span class="pillar__corner" aria-hidden="true"></span><span class="ic" aria-hidden="true"><svg class="icon"><use href="#i-flow"/></svg></span><h3>Grounded in business processes</h3><p>The framework reflects ARC’s experience of how transactions, approvals, reporting and operational responsibilities work in practice.</p></article>
+      <article class="pillar" data-reveal style="--d:140ms"><span class="pillar__corner" aria-hidden="true"></span><span class="ic" aria-hidden="true"><svg class="icon"><use href="#i-chat"/></svg></span><h3>Built for management conversations</h3><p>Views and reports are designed to help leadership and process owners understand issues and agree action.</p></article>
+      <article class="pillar" data-reveal style="--d:220ms"><span class="pillar__corner" aria-hidden="true"></span><span class="ic" aria-hidden="true"><svg class="icon"><use href="#i-network"/></svg></span><h3>Connected across functions</h3><p>Performance, controls and risk share a common business context, helping teams recognise relationships between issues.</p></article>
+      <article class="pillar" data-reveal style="--d:300ms"><span class="pillar__corner" aria-hidden="true"></span><span class="ic" aria-hidden="true"><svg class="icon"><use href="#i-people"/></svg></span><h3>Supported by ARC’s people</h3><p>Risk, finance, compliance and technology expertise inform the solution from scoping through delivery.</p></article>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section contact" id="contact" aria-labelledby="contact-title">
+  <div class="wrap contact__panel">
+    <div class="contact__intro">
+      <p class="eyebrow" data-reveal><span class="iris" aria-hidden="true"></span>Contact</p>
+      <h2 class="h2" id="contact-title" data-split>Let’s bring your governance priorities <em>into view.</em></h2>
+      <p class="lead" data-reveal>Whether your immediate need is better performance reporting, closer control monitoring or a more structured approach to enterprise risk, we can help define the right starting point.</p>
+      <div class="actions" data-reveal>
+        <button class="btn" type="button" data-mode="demo"><span>Request a Demo</span><span class="btn__arrow" aria-hidden="true"><svg class="icon"><use href="#i-arrow"/></svg><svg class="icon"><use href="#i-arrow"/></svg></span></button>
+        <button class="btn btn--ghost btn--plain" type="button" data-mode="discuss">Discuss Your Requirement</button>
+      </div>
+      <div class="person" data-reveal>
+        <div class="person__body">
+          <div>
+            <p class="person__name">Rohit Gupta</p>
+            <p class="person__role">Partner, Risk &amp; Business Consulting</p>
+          </div>
+          <ul class="person__lines">
+            <li><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg><a href="mailto:rohit.gupta@arcadvisory.in">rohit.gupta@arcadvisory.in</a><button class="copy" type="button" data-copy="rohit.gupta@arcadvisory.in" aria-label="Copy email address"><svg class="icon"><use href="#i-copy"/></svg></button></li>
+            <li><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg><a href="tel:+919960444788">+91 99604 44788</a><button class="copy" type="button" data-copy="+91 99604 44788" aria-label="Copy phone number"><svg class="icon"><use href="#i-copy"/></svg></button></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <form class="enquiry" id="enquiry" novalidate data-reveal style="--d:120ms" aria-labelledby="enquiry-title">
+      <p class="enquiry__title" id="enquiry-title">Tell us where to start</p>
+      <div class="seg" id="seg" data-mode="demo" role="radiogroup" aria-label="Type of enquiry">
+        <span class="seg__thumb" aria-hidden="true"></span>
+        <label><input type="radio" name="mode" id="mode-demo" value="demo" checked>Request a demo</label>
+        <label><input type="radio" name="mode" id="mode-discuss" value="discuss">Discuss a requirement</label>
+      </div>
+      <fieldset class="interest">
+        <legend>Areas of interest</legend>
+        <div class="checks">
+          <label><input type="checkbox" name="interest" id="int-bpm" value="BPM"><span>BPM</span></label>
+          <label><input type="checkbox" name="interest" id="int-ccm" value="CCM"><span>CCM</span></label>
+          <label><input type="checkbox" name="interest" id="int-erm" value="ERM"><span>ERM</span></label>
+          <label><input type="checkbox" name="interest" id="int-roadmap" value="Wider roadmap"><span>Wider roadmap</span></label>
+          <label><input type="checkbox" name="interest" id="int-unsure" value="Not sure yet"><span>Not sure yet</span></label>
+        </div>
+      </fieldset>
+      <div class="fields">
+        <div class="field"><label for="f-name">Full name</label><input id="f-name" name="name" autocomplete="name" required><span class="field__err" id="e-name" aria-live="polite"></span></div>
+        <div class="field"><label for="f-company">Company</label><input id="f-company" name="company" autocomplete="organization" required><span class="field__err" id="e-company" aria-live="polite"></span></div>
+        <div class="field"><label for="f-email">Work email</label><input id="f-email" name="email" type="email" autocomplete="email" required><span class="field__err" id="e-email" aria-live="polite"></span></div>
+        <div class="field"><label for="f-phone">Phone <span>(optional)</span></label><input id="f-phone" name="phone" type="tel" autocomplete="tel"></div>
+        <div class="field field--full"><label for="f-msg">What would you like to bring into view? <span>(optional)</span></label><textarea id="f-msg" name="message" rows="4"></textarea></div>
+      </div>
+      <button class="btn btn--block" type="submit"><span id="submitLabel">Prepare demo request</span><span class="btn__arrow" aria-hidden="true"><svg class="icon"><use href="#i-arrow"/></svg><svg class="icon"><use href="#i-arrow"/></svg></span></button>
+      <p class="form-note">Your enquiry opens as a pre-filled email to <b>rohit.gupta@arcadvisory.in</b>, ready for you to review and send.</p>
+      <div class="sent" id="sent" hidden>
+        <span class="sent__ic" aria-hidden="true"><svg class="icon"><use href="#i-check"/></svg></span>
+        <h3 tabindex="-1" id="sentTitle">Your email is ready</h3>
+        <p>We’ve prepared an email to Rohit Gupta and asked your email app to open it. If it didn’t open, copy the message below and send it to <b>rohit.gupta@arcadvisory.in</b>.</p>
+        <pre id="sentBody"></pre>
+        <div class="actions">
+          <button class="btn btn--plain" type="button" id="copyMessage">Copy message</button>
+          <button class="btn btn--ghost btn--plain" type="button" id="editMessage">Edit enquiry</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <svg class="logo" viewBox="0 0 620.32 127.69" role="img" aria-label="Nexus Netra. Transforming Governance with Connected Intelligence."><use href="#nn-lockup-full"/></svg>
+        <p>Governance technology from ARC Advisory.</p>
+      </div>
+      <nav class="footer__cols" aria-label="Footer">
+        <div>
+          <p class="footer__h">Explore</p>
+          <a href="#about">About ARC</a><a href="#governance-os">Governance OS</a><a href="#vision">Our Vision</a><a href="#contact">Contact</a>
+        </div>
+        <div>
+          <p class="footer__h">Tools</p>
+          <a href="#bpm">BPM</a><a href="#ccm">CCM</a><a href="#erm">ERM</a>
+        </div>
+        <div>
+          <p class="footer__h">Talk to us</p>
+          <p><strong>Rohit Gupta</strong>Partner, Risk &amp; Business Consulting</p>
+          <a href="mailto:rohit.gupta@arcadvisory.in">rohit.gupta@arcadvisory.in</a>
+          <a href="tel:+919960444788">+91 99604 44788</a>
+        </div>
+      </nav>
+    </div>
+    <p class="footer__word" aria-hidden="true"><span>N</span><span>E</span><span>T</span><span>R</span><span>A</span></p>
+    <div class="footer__bottom">
+      <p>© 2026 Nexus Netra Governance OS</p>
+      <p>Transforming Governance with Connected Intelligence.</p>
+      <a href="#top">Back to top <svg class="icon"><use href="#i-arrow-up"/></svg></a>
+    </div>
+  </div>
+</footer>
+
+<a class="totop" id="totop" href="#top" aria-label="Back to top">
+  <svg class="ring" viewBox="0 0 52 52" aria-hidden="true"><circle cx="26" cy="26" r="25"/></svg>
+  <svg class="icon"><use href="#i-arrow-up"/></svg>
+</a>
+
+<!-- Theatre -->
+<div class="overlay theater" id="theater" role="dialog" aria-modal="true" aria-labelledby="theater-title" hidden>
+  <button class="close" type="button" data-close aria-label="Close the film"><svg class="icon"><use href="#i-close"/></svg></button>
+  <div class="theater__inner">
+    <div class="theater__stage">
+      <video id="theaterVideo" playsinline webkit-playsinline preload="none" poster="{{IMG:film-poster}}"></video>
+      <div class="tctrl">
+        <button class="film__btn" type="button" id="tToggle" aria-label="Pause"><svg class="icon"><use href="#i-pause"/></svg></button>
+        <div class="tseek" id="tSeek" role="slider" tabindex="0" aria-label="Seek" aria-valuemin="0" aria-valuemax="74" aria-valuenow="0" aria-valuetext="0:00"><span></span><i></i></div>
+        <span class="film__time" id="tTime">0:00 / 1:14</span>
+        <button class="film__btn" type="button" id="tSound" aria-label="Mute" aria-pressed="false"><svg class="icon"><use href="#i-sound-on"/></svg></button>
+      </div>
+    </div>
+    <div class="theater__side">
+      <p class="eyebrow"><span class="iris" aria-hidden="true"></span>The Nexus Netra film · 1:14</p>
+      <h2 id="theater-title">See clearly. Think ahead. <em class="h-em" style="color:var(--gold-light)">Govern better.</em></h2>
+      <p>Chapters</p>
+      <div class="chapters" id="chapters"></div>
+    </div>
+  </div>
+</div>
+
+<!-- Tool drawer -->
+<div class="overlay drawer" id="drawer" role="dialog" aria-modal="true" aria-label="Tool details" hidden>
+  <div class="drawer__panel" data-native-scroll>
+    <button class="close" type="button" data-close aria-label="Close details"><svg class="icon"><use href="#i-close"/></svg></button>
+
+    <section class="dsheet" data-sheet="bpm" aria-labelledby="d-bpm">
+      <span class="pill pill--live" style="justify-self:start"><span class="live-dot" aria-hidden="true"></span>Live</span>
+      <div><p class="dsheet__acr">BPM</p><p class="tool__name" style="margin-top:12px">Business Performance Monitoring</p></div>
+      <h2 id="d-bpm">See the result. Understand what sits behind it.</h2>
+      <p>Bring key business measures into a management dashboard, with actual performance against targets, trends and drill-downs into supporting information.</p>
+      <div><h3>Functions it supports</h3>
+        <ul class="dgrid">
+          <li><svg class="icon"><use href="#i-coins"/></svg>Finance</li><li><svg class="icon"><use href="#i-trend"/></svg>Sales</li><li><svg class="icon"><use href="#i-cart"/></svg>Procurement</li><li><svg class="icon"><use href="#i-boxes"/></svg>Inventory</li><li><svg class="icon"><use href="#i-gear"/></svg>Operations</li><li><svg class="icon"><use href="#i-people"/></svg>HR</li>
+        </ul>
+      </div>
+      <div><h3>Key areas</h3>
+        <ul class="dlist">
+          <li><i aria-hidden="true"><svg class="icon"><use href="#i-check"/></svg></i><div><b>Performance dashboards</b><span>Key business measures in one management view, with actual performance against targets.</span></div></li>
+          <li><i aria-hidden="true"><svg class="icon"><use href="#i-check"/></svg></i><div><b>Variance analysis</b><span>Trends and drill-downs into the supporting information behind a result.</span></div></li>
+          <li><i aria-hidden="true"><svg class="icon"><use href="#i-check"/></svg></i><div><b>Process visibility</b><span>Visibility across finance, sales, procurement, inventory, operations and HR.</span></div></li>
+          <li><i aria-hidden="true"><svg class="icon"><use href="#i-check"/></svg></i><div><b>MIS automation</b><span>Less repetitive consolidation, so teams spend more time understanding performance.</span></div></li>
+        </ul>
+      </div>
+      <div class="actions"><button class="btn" type="button" data-goto-contact="demo" data-interest="BPM"><span>Request a BPM demo</span><span class="btn__arrow" aria-hidden="true"><svg class="icon"><use href="#i-arrow"/></svg><svg class="icon"><use href="#i-arrow"/></svg></span></button><button class="btn btn--ghost btn--plain" type="button" data-goto-contact="discuss" data-interest="BPM">Discuss your requirement</button></div>
+    </section>
+
+    <section class="dsheet" data-sheet="ccm" aria-labelledby="d-ccm">
+      <span class="pill pill--live" style="justify-self:start"><span class="live-dot" aria-hidden="true"></span>Live</span>
+      <div><p class="dsheet__acr">CCM</p><p class="tool__name" style="margin-top:12px">Continuous Control Monitoring</p></div>
+      <h2 id="d-ccm">Keep control exceptions in view.</h2>
+      <p>Monitor agreed control rules across business transactions and surface exceptions for review.</p>
+      <div><h3>Patterns it helps identify</h3>
+        <ul class="dlist">
+          <li><i aria-hidden="true"><svg class="icon"><use href="#i-check"/></svg></i><div><b>Duplicate invoices</b><span>The same charge presented more than once.</span></div></li>
+          <li><i aria-hidden="true"><svg class="icon"><use href="#i-check"/></svg></i><div><b>Purchases split around approval limits</b><span>Orders broken up so each stays under a threshold.</span></div></li>
+          <li><i aria-hidden="true"><svg class="icon"><use href="#i-check"/></svg></i><div><b>Matching discrepancies</b><span>Documents in a transaction that do not agree.</span></div></li>
+          <li><i aria-hidden="true"><svg class="icon"><use href="#i-check"/></svg></i><div><b>Transactions outside defined authority</b><span>Approvals that go beyond delegated limits.</span></div></li>
+        </ul>
+      </div>
+      <div><h3>From exception to follow-up</h3>
+        <ol class="dflow"><li>Agreed control rules run across business transactions</li><li>Exceptions are surfaced for review</li><li>Findings form the basis for investigation</li><li>Corrective action is agreed</li><li>Follow-up is tracked to closure</li></ol>
+      </div>
+      <div class="actions"><button class="btn" type="button" data-goto-contact="demo" data-interest="CCM"><span>Request a CCM demo</span><span class="btn__arrow" aria-hidden="true"><svg class="icon"><use href="#i-arrow"/></svg><svg class="icon"><use href="#i-arrow"/></svg></span></button><button class="btn btn--ghost btn--plain" type="button" data-goto-contact="discuss" data-interest="CCM">Discuss your requirement</button></div>
+    </section>
+
+    <section class="dsheet" data-sheet="erm" aria-labelledby="d-erm">
+      <span class="pill pill--live" style="justify-self:start"><span class="live-dot" aria-hidden="true"></span>Live</span>
+      <div><p class="dsheet__acr">ERM</p><p class="tool__name" style="margin-top:12px">Enterprise Risk Management</p></div>
+      <h2 id="d-erm">Keep risk connected to business priorities.</h2>
+      <p>Bring risk identification, assessment and mitigation into a structured working system.</p>
+      <div><h3>A structured working system</h3>
+        <ol class="dflow"><li>Identify risks and maintain the risk register</li><li>Assess exposure</li><li>Assign ownership</li><li>Track mitigation plans</li><li>Report through Key Risk Indicators and heat maps</li></ol>
+      </div>
+      <div><h3>Key areas</h3>
+        <ul class="dlist">
+          <li><i aria-hidden="true"><svg class="icon"><use href="#i-check"/></svg></i><div><b>Risk assessment</b><span>A consistent view of exposure across the business.</span></div></li>
+          <li><i aria-hidden="true"><svg class="icon"><use href="#i-check"/></svg></i><div><b>Ownership</b><span>Every risk and mitigation plan has a named owner.</span></div></li>
+          <li><i aria-hidden="true"><svg class="icon"><use href="#i-check"/></svg></i><div><b>Mitigation monitoring</b><span>Progress on mitigation plans, tracked over time.</span></div></li>
+          <li><i aria-hidden="true"><svg class="icon"><use href="#i-check"/></svg></i><div><b>Committee reporting</b><span>Support for management reviews, Boards and Risk Management Committees.</span></div></li>
+        </ul>
+      </div>
+      <div class="actions"><button class="btn" type="button" data-goto-contact="demo" data-interest="ERM"><span>Request an ERM demo</span><span class="btn__arrow" aria-hidden="true"><svg class="icon"><use href="#i-arrow"/></svg><svg class="icon"><use href="#i-arrow"/></svg></span></button><button class="btn btn--ghost btn--plain" type="button" data-goto-contact="discuss" data-interest="ERM">Discuss your requirement</button></div>
+    </section>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
